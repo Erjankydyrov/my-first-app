@@ -1,11 +1,11 @@
 import React from 'react';
-import InputsLi from './components/InputsLi';
+import InputLength from './components/InputLength';
 
 function App() {
 
   return (
     <div className="App">
-      <InputsLi />
+      <InputLength />
     </div>
   );
 }
