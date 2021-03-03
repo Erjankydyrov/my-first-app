@@ -1,13 +1,15 @@
 import { useState } from "react";
 
-function InputLength(props) {
-
-    let [length, setLength] = useState(0);
-
-    return <div>
-        <input type = "text" onInput = {function(len) {setLength(len.target.length)}}></input>
-        <span>{length}</span>
-    </div>
+function InputLength({ value }) {
+    const [text, setText] = useState(value ?? "");
+    return (
+        <div className="InputLength">
+            <input
+                type="text"
+                value={text}
+                onInput={(event) => setText(event.target.value)} /> {text.length}
+        </div>
+    );
 }
 
 export default InputLength;
