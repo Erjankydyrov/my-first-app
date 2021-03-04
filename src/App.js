@@ -7,6 +7,8 @@ import FarCell from './components/FarCell';
 import SizeInput from './components/SizeInput';
 import ColorText from './components/ColorText';
 import ColorSliders from './components/ColorSliders';
+import Rotate from './components/Rotate';
+import Reverse from './components/Reverse';
 
 function App() {
 
@@ -30,6 +32,11 @@ function App() {
       <ColorText value = "#00ff33"/>
       <h3>Example7</h3>
       <ColorSliders />
+
+      <h3>Homework-1</h3>
+      <Rotate value = {0}/>
+      <h3>Homework-2</h3>
+      <Reverse value = "erjan"/>
     </div>
   );
 }
