@@ -9,34 +9,17 @@ import ColorText from './components/ColorText';
 import ColorSliders from './components/ColorSliders';
 import Rotate from './components/Rotate';
 import Reverse from './components/Reverse';
+import UlList from './components/UlList';
+import MapUl from './components/MapUl';
+import ForOf from './components/ForOf';
 
 function App() {
 
-  let FontSize = {}
+  let list = ["banana", "mino", "apple", "Limon", "Popaia"];
+  let list1 = ["banana", "mino", "apple", "Limon", "Popaia", "kiwi", "potato"];
 
   return (
     <div className="App">
-      <h3>Example1</h3>
-      <InputLength value = "text"/>
-      <h3>Example2</h3>
-      <Colors value = "#f56b6b"/>
-      <h3>Example3</h3>
-      <InputRange min = {0} max = {10} value = {0}/>
-      <h3>Example4</h3>
-      <DollarsInput value = {100}/>
-      <h3>Example5</h3>
-      <FarCell valueC = {50} valueF = {10}/>
-      <h3>Example6</h3>
-      <SizeInput value = {19} />
-      <h3>Example7</h3>
-      <ColorText value = "#00ff33"/>
-      <h3>Example7</h3>
-      <ColorSliders />
-
-      <h3>Homework-1</h3>
-      <Rotate value = {0}/>
-      <h3>Homework-2</h3>
-      <Reverse value = "erjan"/>
       
     </div>
   );
