@@ -1,0 +1,7 @@
+.ButtonRedText {
+    border: 2px dashed red;
+    background-color: white;
+    padding: 5px;
+    margin-left: 15px;
+    color: red;
+}

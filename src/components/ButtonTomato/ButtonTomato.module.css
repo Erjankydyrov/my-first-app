@@ -1,0 +1,7 @@
+.ButtonTomato {
+    border: 7px dotted rgb(252, 125, 41);
+    background-color: rgb(161, 0, 0);
+    padding: 8px;
+    margin-left: 20px;
+    color: white;
+}

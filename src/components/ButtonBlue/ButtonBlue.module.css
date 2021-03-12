@@ -1,0 +1,8 @@
+.ButtonBlue {
+    border: 3px dashed white;
+    background-color: blue;
+    padding: 8px;
+    margin-left: 20px;
+    color: white;
+    text-transform: uppercase;
+}
