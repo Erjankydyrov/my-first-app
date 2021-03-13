@@ -1,18 +1,8 @@
 .Person {
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
+    flex: 1 0 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 15px;
     padding: 15px;
-    padding-top: 5px;
-    margin: 10px;
-    display: inline-block;
-    width: 200px;
-}
-.Age {
-    color: tomato;
-}
-.Name {
-    text-decoration: underline;
-}
-.Cusis {
-    font-style: italic;
+    padding-top: 10px;
+    border-radius: 15px;
 }
